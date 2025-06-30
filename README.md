@@ -2,13 +2,13 @@
 This repository contains the code, datasets, and visualizations for the project "Analyzing Ballon d'Or, Champions League, and World Cup Winners and Top Performers". The project compiles key information such as the winners of each competition, the best players, and the teams that claimed the titles. Through data analysis and visualizations, it offers insights into the most dominant players and teams in football history.
 
 ## Project Overview
-This repository contains the code, datasets, and visualizations for the project “Analyzing Ballon d’Or Criteria and Its Relationship to World Cup Success.” The project centers on two core research questions:
+This repository contains the code, datasets, and visualizations for the project “Analyzing Ballon d’Or Criteria and Its Relationship to World Cup Success.” The project centers on two research questions:
 
-Is the Ballon d’Or genuinely awarded to the season’s best player, or is it influenced more by marketing and media narratives?
+Is the Ballon d’Or awarded to the season’s best player, or is it influenced more by marketing and media narratives?
 
 Do World Cup winners—either the team as a whole or its standout individuals—tend to secure the Ballon d’Or in the same year?
 
-By compiling Ballon d’Or and World Cup data, examining award voting patterns, performance metrics, and media coverage, this analysis uncovers whether the sport’s highest individual honor aligns with on‑field excellence or broader promotional forces, and how World Cup triumph factors into that equation.
+By compiling Ballon d’Or and World Cup data, examining award voting patterns, performance metrics, and media coverage, this analysis uncovers whether the sport’s highest individual honor aligns with on‑field excellence or broader promotional forces, and how World Cup factors into that equation.
 
 ## Code
 Performs data wrangling, cleaning, and merging of datasets related to the Ballon d’Or, Champions League, and World Cup.
