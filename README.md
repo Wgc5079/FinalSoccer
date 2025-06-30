@@ -29,10 +29,10 @@ Merged datasets used to analyze trends and relationships between awards and comp
 
 ## Data
 (https://en.wikipedia.org/wiki/Ballon_d%27Or) (Primary Dataset)
-Contains detailed information on Ballon d’Or winners, including year, player name, nationality, and club (e.g., 8–10 columns, covering multiple years).
+Contains detailed information on Ballon d’Or winners, including year, player name, nationality, and club.
 
 (Worldcup(Sheet1).csv, FIFA Champions(Sheet1).csv) (Secondary Dataset)
-Includes details of World Cup and Champions League competitions, such as year, winning team, best player, and runner-up (e.g., 10–12 columns, multiple rows per tournament).
+Includes details of World Cup and Champions League competitions, such as year, winning team, best player.
 
 
 
