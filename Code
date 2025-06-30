@@ -1,7 +1,21 @@
-# Code 
-Here are the codes that we use 
-## Table 1 
-{r, echo = FALSE}
+---
+title: "Final Soccer"
+subtitle: STAT 184 Course Project
+author: Evin karimbaniyil, William Carrera
+date: 30 June 2025
+date-format: 06 30 2025
+toc: true
+format: pdf
+editor: source
+---
+
+Introduction
+
+Our project is focused on the best soccer players this world has seen. Every year, football fans around the world are always asking: Who is the best soccer player? Why are they the best soccer player? What makes them the best soccer player? Through the years, these questions have had different answers. It has gotten to the point where the answers in the past would be unacceptable answers to football fanatics and analysts. Our goal with this project is to show who actually deserved to be awarded the most coveted trophy in soccer history: The Ballon D’or. The Ballon D’or is the trophy given to the singular best soccer player in a year’s duration. We and many other football fans believe this trophy has lost its worth and meaning in the past few years because of various criteria a footballer must acquire to even be in the conversation. 
+
+This table shows the player who has won the most Ballon d'Or awards, highlighting their incredible achievements and dominance in the world of football over the years.
+
+```{r, echo = FALSE}
 library(dplyr)
 library(rvest)
 
@@ -13,8 +27,11 @@ tables[[5]] %>%
   html_table(fill = TRUE)%>%
   head()
 
-## Table 2
-{r, echo = FALSE}
+```
+
+This table displays the player with the most Golden Boot awards, showcasing their consistent goal-scoring excellence and remarkable impact in top-level competitions.
+
+```{r, echo = FALSE}
 library(dplyr)
 library(rvest)
 
@@ -25,9 +42,11 @@ tables <- page %>%
 tables[[4]] %>%
   html_table(fill = TRUE)%>%
   head()
+```
 
-## graphs 
-{r, echo = FALSE}
+This graphs provides information about the winners of the Ballon d'Or, Champions League, and World Cup. It includes the best player of each competition, as well as the teams that won the Champions League and the World Cup. This summary allows us to see the top performers and most successful teams across the biggest football tournaments in the world.
+
+```{r, echo = FALSE}
 library(readr)
 library(ggplot2)
 library(dplyr)
@@ -71,3 +90,12 @@ ggplot(Worldcup_Sheet1_, aes(x = as.factor(Year), y = WinnerWC, fill = WinnerWC)
   theme(legend.position = "none",
         axis.text.x = element_text(angle = 45, hjust = 1))
         
+
+```
+
+Conclusion
+
+```         
+```
+
+## 
