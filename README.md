@@ -10,7 +10,7 @@ Do World Cup winners—either the team as a whole or its standout individuals—
 
 By compiling Ballon d’Or and World Cup data, examining award voting patterns, performance metrics, and media coverage, this analysis uncovers whether the sport’s highest individual honor aligns with on‑field excellence or broader promotional forces, and how World Cup triumph factors into that equation.
 
-##Code
+## Code
 Performs data wrangling, cleaning, and merging of datasets related to the Ballon d’Or, Champions League, and World Cup.
 
 Generates summary tables, including:
@@ -27,7 +27,7 @@ Ballon d’Or winners and player nationalities.
 World Cup and Champions League winners, best players, and associated teams.
 Merged datasets used to analyze trends and relationships between awards and competition outcomes.
 
-##Data
+## Data
 (https://en.wikipedia.org/wiki/Ballon_d%27Or) (Primary Dataset)
 Contains detailed information on Ballon d’Or winners, including year, player name, nationality, and club (e.g., 8–10 columns, covering multiple years).
 
